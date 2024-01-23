@@ -259,6 +259,3 @@ df_model_results = df_model_results.append(pd.DataFrame(data=model_performance))
 df_model_results
 
 
-# The Box-Jenkins model performs better than the Holt-Winters based on the MAPE values.  However, these models used different data over different time horizons and should not be directly compared. The RMSE is higher for the Box-Jenkins model as the data was aggregated into monthly buckets, while the Holt-Winters method used daily data. 
-
-# If you have any questions about the process of forecasting seasonal demand, you can submit them for the live session.
